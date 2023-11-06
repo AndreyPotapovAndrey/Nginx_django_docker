@@ -6,7 +6,7 @@
 
 # Задача №2:
 ## Папка django_task2:
-* **docker build -t my_django:v1** Сборка контейнера
+* **docker build -t my_django:v1 .** Сборка контейнера
 
 * **docker run -d -p 8000:8000 my_django:v1** Запуск контейнера в фоновом режиме
 
